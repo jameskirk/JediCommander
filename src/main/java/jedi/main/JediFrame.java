@@ -22,11 +22,6 @@ public class JediFrame extends JFrame implements KeyListener {
     }
     
     private void initUI() {
-        //setLayout(new GridLayout(2, 2, 10, 10));
-
-        //getContentPane().add(window1, 0, 0);
-        //window2.setBounds(30, 200, window2.getWidth(), window2.getHeight());
-
         JPanel panel = new JPanel();
         panel.setLayout(null);
 

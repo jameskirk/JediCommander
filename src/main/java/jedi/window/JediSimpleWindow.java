@@ -24,7 +24,7 @@ public class JediSimpleWindow extends JPanel implements KeyListener {
     public JediSimpleWindow() {
         setLayout(new BorderLayout());
         setSize(WIDTH, HEIGHT);
-        label.setFont(new Font("SansSerif", Font.PLAIN , JediFile.HEIGHT));
+        label.setFont(new Font("Consolas", Font.PLAIN , JediFile.HEIGHT));
         label.setText(window.currentPath);
         add(window, BorderLayout.WEST);
         add(label, BorderLayout.NORTH);

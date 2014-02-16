@@ -56,7 +56,7 @@ public class JediFileList extends JComponent implements KeyListener{
                 g.setColor(Color.BLACK);
             }
 
-            g2.setFont(new Font("SansSerif", Font.PLAIN , JediFile.HEIGHT - 2));
+            g2.setFont(new Font("Consolas", Font.PLAIN , JediFile.HEIGHT - 2));
             g2.drawString(jediFiles.get(i).getName(), 30, (JediFile.HEIGHT) * (i - firstIndex + 1));
             g2.drawImage(jediFiles.get(i).getIcon(), 0, JediFile.HEIGHT * (i - firstIndex), null);
         }

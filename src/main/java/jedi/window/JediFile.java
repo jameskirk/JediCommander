@@ -6,8 +6,6 @@ import java.awt.*;
  * Created by golovin on 15.02.14.
  */
 public class JediFile  implements Comparable{
-    public static int HEIGHT = 18;
-    public static int WIDTH = JediFileList.WIDTH;
 
     private String name;
     private String path;
